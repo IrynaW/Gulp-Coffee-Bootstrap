@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Bootstrap CSS link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <title>GulpRoast</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-md navbar-dark mb-5" style="background-color: #082b59; border-bottom: 5px solid #d98555;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">
+                <img src="https://assets.codepen.io/6306176/gulp-logo-light.png" alt="logo" width="150">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="https://uxuicurriculum.wixsite.com/gulproast"><span aria-hidden="true" class="fa-solid fa-person"></span>About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="https://uxuicurriculum.wixsite.com/gulproast"><span aria-hidden="true" class="fa-solid fa-map"></span>Locations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="https://uxuicurriculum.wixsite.com/gulproast"><span aria-hidden="true" class="fa-solid fa-question"></span>FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active mr-3" aria-current="page" href="https://uxuicurriculum.wixsite.com/gulproast"><span aria-hidden="true" class="fa-solid fa-coffee"></span>Coffee</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mr-3" href="https://uxuicurriculum.wixsite.com/gulproast"><span aria-hidden="true" class="fa-solid fa-phone"></span>Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <a class="navbar-brand" href="javascript:history.back();">
+            <button class="btn btn-link" style="color: #59331D">
+                <span class="fa-solid fa-caret-left"></span> Go back
+            </button>
+        </a>
+        <h1 class="display-4 text-center mb-5">Our Products</h1>
+        <div class="row main-content">
+            <section class="col-lg-12 col-md-12 col-sm-12 mb-4">
+                <div class="card border rounded mb-4 p-2 d-flex flex-column flex-sm-row align-items-center" style="border: 3px solid #d98555; width: 100%;">
+                    <img src="./media/images/gulp-espresso.jpg" alt="espresso" class="img-fluid rounded m-3" style="width: 100%; min-width: 200px; height: auto;">
+                    <div class="flex-grow-1">
+                        <h2 class="h4 mb-5">Columbian-Blended Espresso Beans</h2>
+                        <p>
+                            With our Columbian-Blended Espresso Beans, you can finally feel like a professional barista. Bright and clean with an intense burst of flavor...
+                        </p>
+                        <p>
+                            Flavor profile: Bourbon / cherry / milk chocolate<br>
+                            Recommended brew method: Espresso machine<br>
+                        </p>
+                        <div class="dropdown">
+
+<button class="btn btn-secondary dropdown-toggle" type="button" id="sizeDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Select Size
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="sizeDropdown">
+                                <span class="dropdown-item" style="cursor: pointer;">12 oz.: $18</span>
+                                <span class="dropdown-item" style="cursor: pointer;">5 lb.: $85</span>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary btn-block mt-2" data-toggle="tooltip" data-placement="top" title="Click to buy" style="color: #F2F2F2; background-color: #59331D; font-size: 1rem; padding: 1rem; border-radius: 0.5rem; border: none; cursor: pointer;">
+                            Add to purchase
+                        </button>
+                    </div>
+                </div>
+            </section>    
+        </div>
+    </main>
+    
+
+        <footer class="container-fluid text-center text-light py-4" style="background-color: #082b59; border-top: 5px solid #d98555">
+            <p class="copyright">&copy; 2022 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</p>
+            <p class="copyright-ownership">This site is operated by Trilogy Education Services for educational purposes only. This is not a restaurant website. This is a fictitious company and scenario intended only for internal academic purposes.</p>
+            <div class="socials mt-3 mb-2"> <!-- Added Bootstrap margin-top class for spacing -->
+                <a href="https://www.facebook.com" class="text-light mr-2"> <!-- Added Bootstrap margin-right class for spacing -->
+                    <span aria-hidden="true" class="fa-brands fa-2x fa-square-facebook"></span> <!-- Adjusted font size with fa-3x class -->
+                </a>
+                <a href="https://www.twitter.com" class="text-light mr-2">
+                    <span aria-hidden="true" class="fa-brands fa-2x fa-square-twitter"></span>
+                </a>
+                <a href="https://www.instagram.com" class="text-light">
+                    <span aria-hidden="true" class="fa-brands fa-2x fa-square-instagram"></span>
+                </a>
+            </div>
+        </footer>                
+
+<!-- Bootstrap JS and Popper.js scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script>
+    let buttons = document.querySelectorAll('.btn-primary');
+
+    buttons.forEach(function(button) {
+        button.addEventListener('mouseover', function() {
+            this.style.backgroundColor = '#d98555';
+            this.style.color = '#59331d';
+        });
+
+        button.addEventListener('mouseout', function() {
+            this.style.backgroundColor = '#59331D';  
+            this.style.color = '#F2F2F2';
+        });
+    });
+
+    $(document).ready(function() {
+        $('.dropdown-item').click(function() {
+            var selectedSize = $(this).text();
+            $('#sizeDropdown').text(selectedSize);
+        });
+    });
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+</script>
+</body>
+</html>
